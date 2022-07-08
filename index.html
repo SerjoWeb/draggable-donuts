@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="dashboard">
+    <div class="block" id="1" data-order="1" draggable="true">
+      <canvas id="chart-1" class="chart" width="250" height="250"></canvas>
+    </div>
+
+    <div class="block" id="2" data-order="2" draggable="true">
+      <canvas id="chart-2" class="chart" width="250" height="250"></canvas>
+    </div>
+
+    <div class="block" id="3" data-order="3" draggable="true">
+      <canvas id="chart-3" class="chart" width="250" height="250"></canvas>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
